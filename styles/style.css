@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;700&display=swap');
+
+/* General css*/
+
+body {
+    margin: 0;
+    background-color: aliceblue;
+}
+
+#navbar {
+    background-color: #AF6E45;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+
+.logo {
+    margin-left: 180px;
+    height: 60px;
+}
+
+.logo img {
+    height: 60px;
+}
+
+.navigation li{
+    list-style-type: none;
+    display: inline;
+    text-align: right;
+    margin: 0 0.5em 0 0.5em;
+    font-family: 'David Libre', serif;
+    color: aliceblue;
+    font-size: 26px;
+}
+
+.navigation {
+    margin-right: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0px 180px 0 180px;
+    background-color: #DAC09F;
+}
+
+/* index.html css*/
