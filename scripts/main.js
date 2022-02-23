@@ -12,7 +12,7 @@ window.addEventListener("scroll", function(){
     if(width < 1200 && width >= 1036){
         if(value < 925) slogan.style.top = 1950 + -value + "px";  
     }
-    if(width < 1036 && width >= 992){
+    if(width < 1036 && width > 992){
         if(value < 860) slogan.style.top = 1900 + -value + "px";  
     }
 })
