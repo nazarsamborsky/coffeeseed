@@ -143,222 +143,22 @@ a {
 
 /* index.html css*/
 
-.info {
-    z-index: 10;
-    margin: 0px auto;
-    padding-top: 30px;
-    font-size: 40px;
-    color: #f5f5f5;
-    max-width: 850px;
-}
-
-.left-h1{
-    margin-bottom: 15px;
-}
-
-.right-h1 {
-    text-align: right;
-    margin-top: 15px;
-}
-
-.hero-desc {
-    position: absolute;
-    width:450px;
-    right: 8%;
-    top: 10%;
-    background-color: aliceblue;
-    border-radius: 6px;
-
-}
-
-.hero-desc p{
-    text-align: justify;
-    padding: 10px 20px;
-    display: block;
-    font-size: 1.15em;
-}
-
-.hero-image-1{
-    width: 780px;
-    border-radius: 6px;
-    margin-left: 2%;
-}
-
-.hero {
-    position: relative;
-}
-
-.hero-image-2{
-    width: 620px;
-    position: absolute;
-    right: 0%;
-    top: 58%;
-    border-radius: 6px;
-}
-
-.desc {
-    text-align: justify;
-    width: 475px;
-    margin: 60px 4%;
-    margin-bottom: 0;
-    padding-bottom: 50px;
-    color: #f5f5f5;
-    font-size: 1.7em;
-    
-}
-.scroll-photo {
-    display: block;
-    margin: 100px auto;
-    max-width: 1300px;
-    width: 100%;
-    z-index: 2;
-}
-
-.slogan {
-    position: absolute;
-    text-align: center;
-    max-width: 1100px;
-    font-size: 7.5em;
-    color: aliceblue;
-    left: 28%;
-    z-index: -1;
-}
-
 @media only screen and (max-width: 1200px) {
-.hero {
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    align-items: center;
-    grid-gap: 0px;
-}
-.hero-image-1 {
-    grid-column: 1/2;
-    grid-row: 1/2;
-    position: static;
-    width: 90%;
-    height: auto;
-    margin: 0;
-
-}
-.hero-desc {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    position: static;
-    width: 90%;
-    height: auto;
-}
-.hero-image-2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-    position: static;
-    width: 90%;
-    max-width: 600px;
-    height: auto;
-}
-.desc {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    position: static;
-    width: 90%;
-    height: auto;
-    margin: 0;
-    font-size: 1.7em;
-}
-.slogan {
-    font-size: 7em;
-    max-width: 700px;
-}
 .navigation a {
     font-size: 30px;
 }
 }
-
-
 @media only screen and (max-width: 992px) {
-.hero {
-    display: grid;
-    grid-template-areas:
-    "him1"
-    "hdesc"
-    "him2"
-    "desc";
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    grid-gap: 30px;
-}
-.hero-image-1 {
-    grid-area: him1;
-    position: static;
-    width: 90%;
-    height: auto;
-    margin: 0;
-
-}
-.hero-desc {
-    grid-area: hdesc;
-    position: static;
-    width: 90%;
-    height: auto;
-}
-.hero-image-2 {
-    grid-area: him2;
-    position: static;
-    width: 90%;
-    max-width: unset;
-    height: auto;
-}
-.desc {
-    grid-area: desc;
-    position: static;
-    width: 90%;
-    height: auto;
-    margin: 0;
-    font-size: 1.7em;
-}
-.slogan {
-    top: 7%;
-    max-width: 475px;
-    left: unset;
-    right: 15%;
-    margin-top: 0;
-    z-index: 20;
-}
 .logo {
     margin-left: 5%;
-}
-.left-h1, .right-h1 {
-    font-size: 70px;
-}
-.left-h1 {
-    margin-left: 2%;
-}
-.right-h1 {
-    margin-right: 2%;
 }
 .navigation {
     padding-right: 10px;
     margin-right: 10px;
 }
-.wrapper {
-    height: 600px;
-    position: relative;
-}
-#scroll-photo {
-    position: absolute;
-    bottom: 0;
-    margin-top: 0;
-    margin-bottom: 50px;
-}
-p.desc {
-    padding-bottom: 0;
-}
 }
 @media only screen and (max-width: 720px) {
-.hero {
-    grid-gap: 10px;
-}
+
 #dropdown-menu {
     display: inline;
     margin-right: 2%;
@@ -375,44 +175,7 @@ p.desc {
 .navigation li {
     text-align: left;
 }
-.info{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 25px 0;
-    padding: 0;
-}
-.right-h1, .left-h1 {
-    text-align: center;
-    max-width: 500px;
-    font-size: 57px;
-    margin: 0 20px;
-    
-}
-.hero-desc p {
-    font-size: 0.9em;
-    text-align: center;
-    margin: 0;
-}
-p.desc {
-    font-size: 1.2em;
-    text-align: center;
-    padding-bottom: 15px;
-}
-.wrapper {
-    height: 350px;
-}
-.slogan {
-    font-size: 4em;
-    right: 50%;
-    margin-right: -150px;
-    max-width: 300px;
-}
-#scroll-photo {
-    margin-bottom: 25px;
-    left: 5%;
-    width: 95%;
-}
+
 .navigation {
     position: absolute;
     top: 70px;

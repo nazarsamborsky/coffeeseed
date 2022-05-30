@@ -1,0 +1,39 @@
+body, html {
+    height: 100%;
+    margin:0;
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    line-height: 1.5em;
+    color: #37251b;
+  }
+
+.main-parallax {
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* parallax efekt*/
+    background-attachment: fixed;
+
+}
+
+.main-parallax {
+    padding-top: 70px;
+    background-image: url("../images/kavarna/main.jpg");
+    width: 100%;
+    min-height: 85%;
+}
+
+.nadpis {
+    position: absolute;
+    top: 15%;
+    width: 50%;
+    text-align: center;
+    font-size: 6em;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    line-height: 1em;
+  }
